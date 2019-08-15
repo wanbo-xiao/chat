@@ -152,7 +152,7 @@ class Chat {
         let docFragment = document.createDocumentFragment();
         for (let i = 1; i < 7; i++) {
             let emojiItem = document.createElement('img');
-            emojiItem.src = '../emoji/' + i + '.gif';
+            emojiItem.src = 'emoji/' + i + '.gif';
             emojiItem.title = i;
             docFragment.appendChild(emojiItem);
         }
