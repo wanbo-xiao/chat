@@ -143,7 +143,7 @@ class Chat {
         let match;
         while (match = reg.exec(msg)) {
             let emojiIndex = match[0].slice(7, -1);
-            msg = msg.replace(match[0], '<img class="emoji" src="../emoji/' + emojiIndex + '.gif"/>');
+            msg = msg.replace(match[0], '<img class="emoji" src="emoji/' + emojiIndex + '.gif"/>');
         }
         return msg;
     }
