@@ -10,3 +10,5 @@ http://www.bobsyd.com/demo/chat/
 2. try material-ui
 3. add private chat function 
 
+## Deploy
+pm2 start app.js
